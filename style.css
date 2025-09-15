@@ -1,0 +1,31 @@
+.container{
+   max-width: 1238px;
+   width: 100%;
+   margin: auto;
+}
+.header{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.menu{
+   display: flex;
+   gap: 50px;
+}
+.menu a{
+   flex-direction: none;
+   font-size: 14px;
+   color: red;
+}
+.header_btn{
+   display:flex ;
+   gap: 20px;
+   align-items: center;
+}
+.header_btn button{
+   padding: 5px 15px;
+   background-color: blue;
+   color: white;
+   border: none;
+
+}
